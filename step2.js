@@ -1,9 +1,9 @@
 const fs = require("fs");
 
-const json = read("data/marint.geojson", "NiN-kode");
-const json2 = read("data/landskap.geojson", "S_kode");
+const json = read("build/marint.geojson", "NiN-kode");
+const json2 = read("build/landskap.geojson", "S_kode");
 json.features = json.features.concat(json2.features);
-convert("data/LA");
+convert("build/LA");
 
 function read(fn, kodeAttributt) {
   const json = JSON.parse(fs.readFileSync(fn));
