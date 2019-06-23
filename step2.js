@@ -1,6 +1,7 @@
 const fs = require("fs");
 
 const json = read("temp/landskap_32633.geojson", "S_kode");
+console.log("Mapping type codes to RGB properties");
 convert("temp/LA");
 
 function read(fn, kodeAttributt) {
