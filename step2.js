@@ -1,9 +1,7 @@
 const fs = require("fs");
 
-const json = read("build/marint.geojson", "NiN-kode");
-const json2 = read("build/landskap.geojson", "S_kode");
-json.features = json.features.concat(json2.features);
-convert("build/LA");
+const json = read("temp/landskap_32633.geojson", "S_kode");
+convert("temp/LA");
 
 function read(fn, kodeAttributt) {
   const json = JSON.parse(fs.readFileSync(fn));
@@ -33,9 +31,8 @@ function convert(baseName) {
     const farge = keys[kode];
     f.properties.g = farge >> 8;
     f.properties.b = farge & 255;
-    if (farge > 255) console.log(f.properties);
   });
 
-  fs.writeFileSync(baseName + "_colors.json", JSON.stringify(keys));
+  fs.writeFileSync("build/LA_colors.json", JSON.stringify(keys));
   fs.writeFileSync(baseName + ".geojson", JSON.stringify(json));
 }
