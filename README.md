@@ -1,6 +1,17 @@
 # Lastejobb
 
-Kjører en sekvens med steg (`stages/`) i alfabetisk rekkefølge.
+Lager landskapskart i ulike formater
+
+| Størrelse | Format     | Filnavn                                                                                                                                | URL                                                                                                 |
+| --------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| 5M        | Kodeliste  | [metadata_med_undertyper.json](https://data.artsdatabanken.no/Natur_i_Norge/Landskap/metadata_med_undertyper.json)                     | https://data.artsdatabanken.no/Natur_i_Norge/Landskap/metadata_med_undertyper.json                  |
+| 92M       | GeoJSON    | [polygon.32633.geojson](https://data.artsdatabanken.no/Natur_i_Norge/Landskap/Typeinndeling/polygon.32633.geojson)                     | https://data.artsdatabanken.no/Natur_i_Norge/Landskap/Typeinndeling/polygon.32633.geojson           |
+| 93M       | GML        | [polygon.32633.gml](https://data.artsdatabanken.no/Natur_i_Norge/Landskap/Typeinndeling/polygon.32633.gml)                             | https://data.artsdatabanken.no/Natur_i_Norge/Landskap/Typeinndeling/polygon.32633.gml               |
+| 96M       | GeoPackage | [polygon.32633.gpkg](https://data.artsdatabanken.no/Natur_i_Norge/Landskap/Typeinndeling/polygon.32633.gpkg)                           | https://data.artsdatabanken.no/Natur_i_Norge/Landskap/Typeinndeling/polygon.32633.gpkg              |
+| 93M       | Spatialite | [polygon.32633.spatialite.sqlite](https://data.artsdatabanken.no/Natur_i_Norge/Landskap/Typeinndeling/polygon.32633.spatialite.sqlite) | https://data.artsdatabanken.no/Natur_i_Norge/Landskap/Typeinndeling/polygon.32633.spatialite.sqlite |
+| 1M        | GML        | [polygon.32633.xsd](https://data.artsdatabanken.no/Natur_i_Norge/Landskap/Typeinndeling/polygon.32633.xsd)                             | https://data.artsdatabanken.no/Natur_i_Norge/Landskap/Typeinndeling/polygon.32633.xsd               |
+| 204M      | GeoJSON    | [polygon.4326.geojson](https://data.artsdatabanken.no/Natur_i_Norge/Landskap/Typeinndeling/polygon.4326.geojson)                       | https://data.artsdatabanken.no/Natur_i_Norge/Landskap/Typeinndeling/polygon.4326.geojson            |
+| 93M       | Spatialite | [polygon.4326.spatialite.sqlite](https://data.artsdatabanken.no/Natur_i_Norge/Landskap/Typeinndeling/polygon.4326.spatialite.sqlite)   | https://data.artsdatabanken.no/Natur_i_Norge/Landskap/Typeinndeling/polygon.4326.spatialite.sqlite  |
 
 ## Funksjoner
 
