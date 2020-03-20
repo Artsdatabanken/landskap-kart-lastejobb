@@ -21,6 +21,8 @@ function floatToInt(geom) {
 
 function map(props) {
     props.kode = fixKode(props.S_kode)
+    props.KLG_RE_ID = props.KLG_RE_ID_
+    delete props.KLG_RE_ID_
     delete props.S_kode
     delete props.Shape_Leng
     delete props.Shape_Area

@@ -1,0 +1,27 @@
+{
+ "name": "nin-landskapstype-kart",
+ "version": "1.0.0",
+ "description": "",
+ "main": "step2.js",
+ "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "download": "node node_modules/lastejobb/index download",
+  "transform": "node node_modules/lastejobb/index transform",
+  "build": "npm run download && npm run transform",
+  "deploy": "node node_modules/lastejobb/index deploy"
+ },
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/Artsdatabanken/nin-landskapstype-kart.git"
+ },
+ "keywords": [],
+ "author": "",
+ "license": "ISC",
+ "bugs": {
+  "url": "https://github.com/Artsdatabanken/nin-landskapstype-kart/issues"
+ },
+ "homepage": "https://github.com/Artsdatabanken/nin-landskapstype-kart#readme",
+ "dependencies": {
+  "lastejobb": "^3.4.0"
+ }
+}
