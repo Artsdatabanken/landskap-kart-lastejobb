@@ -9,7 +9,6 @@ function read(fn, kodeAttributt) {
   json.features.forEach(f => {
     const kode = f.properties[kodeAttributt]
     f.properties = { kode: kode };
-    f.geometry.coordinates.forEach(geom => )
   });
   return json;
 }

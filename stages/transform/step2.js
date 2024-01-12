@@ -1,4 +1,4 @@
-const { io, json } = require('lastejobb')
+const { io, json } = require('@artsdatabanken/lastejobb')
 const fs = require("fs");
 
 var meta = io.lesTempJson('metadata.json')

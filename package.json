@@ -5,10 +5,9 @@
  "main": "step2.js",
  "scripts": {
   "test": "echo \"Error: no test specified\" && exit 1",
-  "download": "node node_modules/lastejobb/index download",
-  "transform": "node node_modules/lastejobb/index transform",
-  "build": "npm run download && npm run transform",
-  "deploy": "node node_modules/lastejobb/index deploy"
+  "download": "node node_modules/@artsdatabanken/lastejobb/lastejobb stages/download",
+  "transform": "node node_modules/@artsdatabanken/lastejobb/lastejobb stages/transform",
+  "build": "npm run download && npm run transform"
  },
  "repository": {
   "type": "git",
@@ -22,6 +21,6 @@
  },
  "homepage": "https://github.com/Artsdatabanken/nin-landskapstype-kart#readme",
  "dependencies": {
-  "lastejobb": "^3.4.0"
+  "@artsdatabanken/lastejobb": "^4.0.16"
  }
 }
